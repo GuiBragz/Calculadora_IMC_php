@@ -7,6 +7,21 @@
 </head>
 <body>
     <h1>Calculadora de IMC</h1>
+    /*Atividade: Calculadora de IMC (Índice de Massa Corporal)
+Desenvolva um script em PHP que permita ao usuário calcular seu 
+Índice de Massa Corporal (IMC) inserindo sua altura (em metros) e seu peso (em quilogramas). 
+O IMC é calculado dividindo o peso pela altura ao quadrado (IMC = peso / altura^2).
+
+O script deve exibir o resultado do IMC e uma mensagem indicando a categoria do IMC do usuário, 
+conforme a seguinte tabela:
+
+IMC abaixo de 18.5: Abaixo do peso
+IMC entre 18.5 e 24.9: Peso normal
+IMC entre 25 e 29.9: Sobrepeso
+IMC entre 30 e 34.9: Obesidade grau I
+IMC entre 35 e 39.9: Obesidade grau II (severa)
+IMC acima de 40: Obesidade grau III (mórbida)
+Certifique-se de validar as entradas do usuário para garantir que sejam números válidos maiores que zero.*/
     <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" class="formu">
         <h2>
             <label for="metros">Insira sua altura (ex: 1.80):</label><br>
